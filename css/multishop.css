@@ -1,0 +1,503 @@
+/* valeurs */
+html {
+    --gray: #3D464D;
+    --graylight: #F5F5F5;
+    --orange: #FFD334;
+    --white:#ffffff;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--graylight);
+    scroll-behavior: smooth;
+}
+
+.border {border: 1px solid red;}
+
+/* Première navbar: navbar-1 */
+.navbar-1 {
+    background-color: var(--graylight);
+}
+.navbar-1 .mycontainer{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    /* background-color: var(--graylight); */
+}
+.navbar-1 .nav-links .link{
+    color: var(--gray);
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    text-decoration: none;
+}
+.navbar-1 .menu-dropdown select{
+    border: none;
+    outline: none;
+} /* Fin première navbar: navbar-1 */
+
+/* Deuxième navbar: navbar-2 */
+.multi {
+    text-align: center;
+    color: #FFD334;
+    background-color: #3D464D;
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+.shop {
+    text-align: center;
+    color: #3D464D;
+    background-color: #FFD334;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.search {
+    text-align: center;
+    font-size: x-large;
+    color: #FFD334;
+    
+}
+
+.sav  {
+    text-align: left;
+    font-weight: bold;
+}
+
+.phone {
+    text-align: left;
+    font-weight: bold;
+}
+
+.fa-magnifying-glass {
+    background: var(--white);
+    color: var(--orange);
+}
+/* Fin deuxième navbar: navbar-2 */
+
+/** Troisième Navbar : Navbar-3 **/
+
+.navbar-3 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #3D464D;
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #FFD334;
+    color: #3D464D;
+    font-weight: bold;
+    padding: 0.9rem 0 0.9rem 0;
+}
+.categories select {
+    background-color: var(--orange);
+    border: none;
+}
+
+.links {
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    margin-right: 0;
+}
+
+.home {
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    margin-right: 1rem; 
+    color: #FFD334;
+    margin-top: 1rem;
+}
+
+.shops {
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    margin-right: 1rem;
+    color: #F5F5F5;
+    margin-top: 1rem; 
+}
+
+.details {
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    margin-right: 1rem; 
+    color: #F5F5F5; 
+    margin-top: 1rem;
+}
+
+.pages {
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    margin-right: 1rem; 
+    color: #F5F5F5; 
+    margin-top: 1rem;
+}
+
+.user {
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    margin-right: 1rem;
+    color: #F5F5F5; 
+    margin-top: 1rem; 
+}
+
+.logo {
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: flex-start;
+    color: #FFD334;
+    float: right;
+}
+/* Fin troisième navbar: navbar-2 */
+
+/* Images 1*/
+
+.carousel-inner {
+    margin-top: 2rem;
+    padding-right: 20rem;
+}
+
+.visually-hidden {
+    margin-left: 2rem;
+}
+.text-carousel2 {
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.crl {
+    /* position: relative; */
+    text-align: center;
+    color: white;
+}
+
+.btn-shop {
+    border: 1px solid var(--white);
+    background: none;
+    color: var(--white);
+}
+
+.carousel-caption {
+    margin-bottom: 5rem;
+    margin-left: 16rem;
+}
+
+.carousel-3 {
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-carousel3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-carousel1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-white {
+    border: 1px solid white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.text-offer1 {
+    margin-left: 65rem;
+    top:-50%;
+    color: var(--white);
+}
+
+.text-offer2 {
+    margin-left: 65rem;
+    top:-50%;
+    color: var(--white); 
+}
+
+.shop-yellow {
+    background-color: var(--orange);
+    
+}
+.shop-yellow-2 {
+    background-color: var(--orange);
+}
+/* Fin Images 1 */
+
+.mycontainer-2 {
+    /* background-color: var(--graylight); */
+    padding-bottom: 2rem;
+}
+/* Images-2*/
+.mycarousel-3 {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.carousel-3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 0;
+}
+
+.card-offers {
+    margin-top: .5rem;
+    
+}
+
+.off-1 {
+    width: 100%;
+    height: 200px;
+    margin-top: -43rem;
+    margin-left: 55rem;
+}
+.off-2 {
+    width: 100%;
+    height: 200px;
+    margin-top: -18rem;
+    margin-left: 55rem;
+}
+
+
+
+/* .offer-2 {
+    margin-top: 1rem;
+    height: 100%;
+    width: 100%;
+}
+.offer-2 {
+    margin-top: 1rem;
+    height: 100%;
+    width: 100%;
+} */
+
+
+/*Services*/
+
+.carre-2 {
+    padding:0 15px 0 15px; 
+    padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+    background-color: var(--white);
+}
+
+.fa-check {
+    color:var(--orange);
+    margin-top: 6px;
+}
+
+.fa-truck-fast {
+    color:var(--orange);
+    margin-top: 6px;
+}
+
+.fa-arrow-right-arrow-left {
+    color:var(--orange);
+    margin-top: 6px
+}
+
+.fa-phone-volume {
+    color:var(--orange);
+    margin-top: 6px
+}
+/**Fin Services**/
+
+/**Catégories**/
+
+.category-1 {
+    text-align: center;
+    background-color: var(--graylight);
+}
+
+.rect {
+    background-color: white;
+}
+
+.rect-1 {
+    height: 8vh;
+    margin-right: 20rem;
+    margin-bottom: -3rem;
+}
+
+.text-rect {
+    text-align: center;
+    margin-left: 4rem;
+}
+
+.category-2 {
+    text-align: center;
+    background-color: var(--graylight);
+}
+
+.category-3 {
+    text-align: center;
+    background-color: var(--graylight);
+}
+/**Fin Catégories/
+
+/** Featured Products **/
+
+.products {
+    height: 17rem;
+    width: 100%;
+}
+
+.text-prod {
+    background-color: white;
+    
+}
+.fa-star {
+    color: var(--orange)
+}
+
+.fa-star-half-stroke {
+    color: var(--orange);
+}
+
+/** Fin de Featured Products**/
+
+/** Images 2 suite**/
+
+.offerdown-1 {
+    width: 100%;
+    padding-right: 3rem;
+}
+
+.offerdown-2 {
+    width: 95%;
+
+}
+
+.text-offer-1 {
+    text-align: center;
+    margin: 4rem 0 0 0;
+    color: white;
+}
+
+.space-1 {
+    padding-bottom: 3rem;
+}
+
+.space-2 {
+    padding-bottom: 2rem;
+}
+
+.text-offer3 {
+    margin-left: 15rem;
+    color: var(--white);
+}
+
+.shop-yellow-3 {
+    background-color: var(--orange);
+}
+
+.text-offer4 {
+    margin-left: 57rem;
+    color: var(--white);
+}
+
+.shop-yellow-4 {
+    background-color: var(--orange);
+}
+
+/**Vendor**/
+.vendor{ 
+    margin-left: 25px;
+}
+
+/** Fin de Vendor /
+
+
+/**Footer**/
+
+.fa-location-dot {
+    color: var(--orange);
+}
+
+.fa-envelope {
+    color: var(--orange);
+}
+
+.fa-phone {
+    color: var(--orange);
+}
+
+footer {
+    background-color: var(--gray);
+    color: white;
+    padding-bottom: 2rem;
+}
+footer .footer-2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer .footer-2 ul li {
+    display: block;
+}
+footer .footer-2 li a {
+    color: var(--white);
+    text-decoration: none;
+}
+footer .footer-2 li a::before {
+    content: "> ";
+
+}
+footer .div-btn {
+    text-align: end;
+}
+footer .div-btn .btn-smooth {
+    text-decoration: none;
+    color: var(--orange);
+    font-size: 2rem;
+}
+
+.fa-square-twitter, .fa-square-facebook, .fa-linkedin, .fa-square-instagram {
+    color: var(--orange)
+}
+
+.payements {
+    margin-left: 33rem;
+}
+
+.button-signup {
+    color: var(--gray);
+    background-color: var(--orange);
+    background: var(--orange);
+}
